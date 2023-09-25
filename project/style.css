@@ -1,0 +1,174 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+    color: #303030;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-right: 0vw;
+}
+
+#titolo {
+    font-size: 3vw;
+    width: fit-content;
+}
+
+#inputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: inherit;
+}
+
+#inputForm {
+    display: flex;
+    align-items: center;
+}
+
+.inputBox {
+    font-size: 1.2vw;
+    padding-left: 1vw;
+
+    width: 15vw;
+    height: 3vw;
+    margin-right: 0.8vw;
+
+    border: 0.1vw solid salmon;
+}
+
+.inputBox:focus {
+    outline: 0.2vw solid red;
+}
+
+/*
+#nameInput {
+
+}
+
+#surnameInput {
+
+}
+
+#countryInput {
+
+}
+
+#scoreInput {
+
+}
+*/
+
+#submitButton {
+    font-size: 1vw;
+
+    width: 10vw;
+    height: 3.2vw;
+
+    border: 0;
+    color: white;
+    background-color: salmon;
+}
+
+#feedback {
+    font-size: 1.3vw;
+    color: red;
+    font-weight: bold;
+}
+
+#leaderboardDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: inherit;
+}
+
+.leaderboardBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 5vw;
+    margin-top: 1vw;
+
+    background-color: #eeaaa2;
+}
+
+.leaderboardBoxElement {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.5vw;
+    width: 25%;
+    margin-left: 2vw;
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nameDiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.fullNameP {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.creationTimeP {
+    font-size: 0.75vw;
+    font-weight: bold;
+    color: #7b7878;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.scoreButtonsDiv {
+    display: flex;
+}
+
+.scoreButton {
+    width: 3vw;
+    height: 3vw;
+
+    font-size: 1vw;
+    border: 0;
+    border-radius: 2vw;
+    background-color: white;
+
+    margin-right: 0.5vw;
+}
+
+.scoreButton.deleteButton {
+    font-size: 2vw;
+    color: red;
+}
+
+.scoreButton.deleteButton:hover {
+    color: white;
+    background-color: red;
+}
+
+.scoreButton.addButton:hover {
+    color: white;
+    background-color: #02de02;
+}
+
+.scoreButton.minusButton:hover {
+    color: white;
+    background-color: lightseagreen;
+}
